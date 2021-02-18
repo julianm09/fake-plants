@@ -52,9 +52,9 @@ right: 70vw;
 
 const About = Styled.div`
 
-width: 100vw;
+width: 80vw;
 height: 100vh;
-
+text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -93,7 +93,7 @@ const Content = () => {
         <Container>
 
 
-<About id ="about"><Logo data-aos="fade-up" width="200px;" src={LogoWide}/><p>Royalty-free images for commercial and non-commercial use </p></About>
+<About id ="about"><Logo data-aos="fade-up" width="80vw;" src={LogoWide}/><p>Royalty-free images for commercial and non-commercial use </p></About>
 
 <Contact id ="contact"><h2>Contact</h2></Contact>
             
