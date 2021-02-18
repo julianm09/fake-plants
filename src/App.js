@@ -22,6 +22,7 @@ flex-direction: column;
 align-items: center;
 font-family: 'Nunito', sans-serif;
 background: #FF9BBF;
+overflow-x: hidden;
 
 
 
