@@ -10,9 +10,10 @@ import './index.css';
 
 import { useState } from "react";
 
+import LocomotiveScroll from 'locomotive-scroll'
 
 
-
+const scroll = new LocomotiveScroll();
 
 const AppContainer = Styled.div`
 
