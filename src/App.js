@@ -11,6 +11,7 @@ import './index.css';
 import { useState } from "react";
 
 import LocomotiveScroll from 'locomotive-scroll'
+import {LoadScreen} from "./components/LoadScreen";
 
 
 const scroll = new LocomotiveScroll();
@@ -77,6 +78,8 @@ function App() {
   return (
 
       <AppContainer>
+
+        <LoadScreen/>
         <Header></Header>
         <Hero></Hero>
         <GridCol2>

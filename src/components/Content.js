@@ -34,7 +34,6 @@ left: 70vw;
 
 
 
-
 `
 
 const Plant02 = Styled.img`
@@ -59,6 +58,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+position: relative;
 
 
 `      
@@ -93,11 +93,12 @@ const Content = () => {
         <Container>
 
 
-<About id ="about"><Logo data-aos="fade-up" width="200px;" src={LogoWide}/><p>Royalty-free images for commercial and non-commercial use. </p></About>
+<About id ="about"><Logo data-aos="fade-up" width="200px;" src={LogoWide}/><p>Royalty-free images for commercial and non-commercial use. </p>
+<Plant01 width="50%" src={bonsai} alt="" data-aos="slide-left" /></About>
 
-<Contact id ="contact"><h2>Contact</h2></Contact>
+{/* <Contact id ="contact"><h2>Contact</h2></Contact> */}
             
-<Plant01 width="50%" src={bonsai} alt="" data-aos="slide-left" />
+
 
 
 
